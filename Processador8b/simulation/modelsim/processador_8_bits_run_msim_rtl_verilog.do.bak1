@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/registradores_uso_geral.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/muxes.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/define.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/pc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/jump_register.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/processador_8_bits.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/controle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/Processador8b {C:/Users/Aluno/Desktop/Processador8b/memoria_instrucao.v}
+

@@ -1,0 +1,205 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Estudo\Downloads\Processador8b\simulation\modelsim
+vcontrole
+I]lIfHK]L7FmfFPLYcZ<Ze1
+V@U5DcXHCQWhI6i=`_UCNh2
+Z1 dC:\Users\Estudo\Downloads\Processador8b\simulation\modelsim
+w1658003407
+8C:/Users/Estudo/Downloads/Processador8b/controle.v
+FC:/Users/Estudo/Downloads/Processador8b/controle.v
+L0 10
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Estudo/Downloads/Processador8b -O0
+!i10b 1
+!s100 jEW0c:>2JUfDADZ6a6k;22
+!s85 0
+!s108 1658015573.952000
+!s107 C:/Users/Estudo/Downloads/Processador8b/define.v|C:/Users/Estudo/Downloads/Processador8b/controle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/controle.v|
+!s101 -O0
+vjump_register
+I25DCViS`2gSLWD^daJ__I2
+VYH@^6gAoWV[OOI7c@97QE0
+R1
+w1658014654
+8C:/Users/Estudo/Downloads/Processador8b/jump_register.v
+FC:/Users/Estudo/Downloads/Processador8b/jump_register.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 E9f^YT6jFo;AFk>GH]obf1
+!s85 0
+!s108 1658015574.107000
+!s107 C:/Users/Estudo/Downloads/Processador8b/jump_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/jump_register.v|
+!s101 -O0
+vmemoria_dados
+If?j;:N_7YPeW0n5g5CMP30
+V;49h8D^h?hkjX`VdJg5=03
+R1
+w1658015559
+8C:/Users/Estudo/Downloads/Processador8b/memoria_dados.v
+FC:/Users/Estudo/Downloads/Processador8b/memoria_dados.v
+L0 10
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ;Ig?R[1iW:E6=EJ49Ei`31
+!s85 0
+!s108 1658015574.204000
+!s107 C:/Users/Estudo/Downloads/Processador8b/memoria_dados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/memoria_dados.v|
+!s101 -O0
+vmemoria_instrucao
+I^;M2oGf3H=V_7C[fYaZEo3
+Vk=gV_fUfdXD[2zJ1F[A@=1
+R1
+w1658015436
+8C:/Users/Estudo/Downloads/Processador8b/memoria_instrucao.v
+FC:/Users/Estudo/Downloads/Processador8b/memoria_instrucao.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 zz>;`3QAlE?iAT2[P5X9`0
+!s85 0
+!s108 1658015574.292000
+!s107 C:/Users/Estudo/Downloads/Processador8b/memoria_instrucao.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/memoria_instrucao.v|
+!s101 -O0
+vmux_2_1
+I6QSZc`lK80Kha?4QYcEnn1
+V3T[CI<G2H?77TfEL^Whzf0
+R1
+w1658003375
+8C:/Users/Estudo/Downloads/Processador8b/muxes.v
+FC:/Users/Estudo/Downloads/Processador8b/muxes.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 FP<99>>Z3>5]4mQIXeil=2
+!s85 0
+!s108 1658015574.736000
+!s107 C:/Users/Estudo/Downloads/Processador8b/muxes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/muxes.v|
+!s101 -O0
+vpc
+IX>9LYdHn;W5LL?22oOZB`2
+V_3Q@?zAS`9jPzZjVeC?b12
+R1
+w1658007644
+8C:/Users/Estudo/Downloads/Processador8b/pc.v
+FC:/Users/Estudo/Downloads/Processador8b/pc.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 mZa;_6^K?=[ZDi`1JfhHR2
+!s85 0
+!s108 1658015574.643000
+!s107 C:/Users/Estudo/Downloads/Processador8b/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/pc.v|
+!s101 -O0
+vprocessador_8_bits
+IPUGR49z3034Q>595a8gaX2
+V9jMN2=Y>Gj5h_W;=eM4@=1
+R1
+w1658014755
+8C:/Users/Estudo/Downloads/Processador8b/processador_8_bits.v
+FC:/Users/Estudo/Downloads/Processador8b/processador_8_bits.v
+L0 11
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 MN1Mc[nWJ[5^H0:^XSd^03
+!s85 0
+!s108 1658015574.560000
+!s107 C:/Users/Estudo/Downloads/Processador8b/processador_8_bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/processador_8_bits.v|
+!s101 -O0
+vregistradores_uso_geral
+IT1AU;L01dbL9bYW]CPe^I1
+VEb]VoMY<Qgc<HbmZki9iJ2
+R1
+w1658003360
+8C:/Users/Estudo/Downloads/Processador8b/registradores_uso_geral.v
+FC:/Users/Estudo/Downloads/Processador8b/registradores_uso_geral.v
+L0 9
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 72[PR]eI_5JnQ6BBd2S7A1
+!s85 0
+!s108 1658015574.474000
+!s107 C:/Users/Estudo/Downloads/Processador8b/registradores_uso_geral.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/registradores_uso_geral.v|
+!s101 -O0
+vsimulacao_processador
+I=EF5V0F3[aJDHJjLYK?3U3
+Vi^PY9mhWW3C58RTOE1AiK1
+R1
+w1658015487
+8C:/Users/Estudo/Downloads/Processador8b/simulacao_processador.v
+FC:/Users/Estudo/Downloads/Processador8b/simulacao_processador.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 A1SElKF9=3K@h8_3GV0[z2
+!s85 0
+!s108 1658015574.381000
+!s107 C:/Users/Estudo/Downloads/Processador8b/define.v|C:/Users/Estudo/Downloads/Processador8b/simulacao_processador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/simulacao_processador.v|
+!s101 -O0
+vula
+!i10b 1
+!s100 SlghUHzI1IcFj8k>kVQmB3
+IMnORhFVF?;EM2zPW>]PBB3
+V1?=KJBD@Y1RCNmSfBFXLW1
+R1
+w1658003567
+8C:/Users/Estudo/Downloads/Processador8b/ula.v
+FC:/Users/Estudo/Downloads/Processador8b/ula.v
+L0 11
+R2
+r1
+!s85 0
+31
+!s108 1658015574.828000
+!s107 C:/Users/Estudo/Downloads/Processador8b/define.v|C:/Users/Estudo/Downloads/Processador8b/ula.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Estudo/Downloads/Processador8b|C:/Users/Estudo/Downloads/Processador8b/ula.v|
+!s101 -O0
+R3
+R4
