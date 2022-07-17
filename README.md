@@ -10,6 +10,8 @@ As etapas de MEM(W) e REG WB ocorrem na borda de descida do clock.
 Conjunto de instruções, tabela de controle e programas testados:
 https://docs.google.com/spreadsheets/d/1jTgcv_d65m7bKRawLwDhGFnjqreM5VpYS6qBkbGyiEc/edit#gid=1924621090
 
+Dentre as diferenças da arquitetura do MIPS, a mais significativa é de que todos os desvios necessitam de um endereço absoluto que deve ser setado no registrador rJump antes de qualquer instrução de desvio (beq, bne, beqz ou j), utilizando a instrucao sjmp (set jump).
+
 ## Simulação: Programas e casos de teste
 
 O processador foi capaz de executar com sucesso, na simulação RTL, um algoritmo de BubbleSort e um algoritmo para encontrar o maior elemento de um vetor.
