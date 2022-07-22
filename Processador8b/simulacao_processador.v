@@ -1,3 +1,13 @@
+/*
+	Caio Vinicius Pereira Silveira
+	Revisado 16/07/2022
+	
+	Simulacao do processador
+	Ao se trocar de programa entre o bubblesort e o maior elemento,
+	trocar os comentarios do bloco initial e do fim do bloco alwyas para
+	que se imprima corretamente os valores do vetor e da saida no console
+*/
+
 `include "define.v"
 
 module simulacao_processador();
@@ -60,7 +70,7 @@ module simulacao_processador();
 			`SUB: begin $display("%d: SUB R%d R%d", proc.out_pc, proc.m_inst_out[3:2], proc.m_inst_out[1:0]); end
 			`SLL: begin $display("%d: SLL R%d R%d", proc.out_pc, proc.m_inst_out[3:2], proc.m_inst_out[1:0]); end
 			`SRL: begin $display("%d: SRL R%d R%d", proc.out_pc, proc.m_inst_out[3:2], proc.m_inst_out[1:0]); end
-			`SJMP: begin $display("%d: SJMP", proc.out_pc); end
+			`SJMP: begin $display("%d: SJMP R%d", proc.out_pc, proc.m_inst_out[1:0]); end
 			`J: begin $display("%d: J", proc.out_pc); end
 			`HLT: begin $display("%d: HLT", proc.out_pc); end
 		endcase

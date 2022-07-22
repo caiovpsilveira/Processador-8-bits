@@ -76,11 +76,10 @@ module processador_8_bits
 	
 	//	module memoria_instrucao //ROM
 	//	(
-	//		input clk,
 	//		input [7:0] addr,
 	//		output reg [7:0] out
 	//	);
-	memoria_instrucao mem_inst(clk, out_pc, m_inst_out);
+	memoria_instrucao mem_inst(out_pc, m_inst_out);
 	
 	//	module controle
 	//(

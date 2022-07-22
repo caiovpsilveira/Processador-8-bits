@@ -17,7 +17,7 @@ module mux_2_1
 	genvar i;
 	generate
 		for(i=0; i<BITS; i=i+1) begin: mux
-			assign out[i] = (!sel & in0[i]) | (sel & in1[i]);
+			assign out[i] = (~sel & in0[i]) | (sel & in1[i]);
 		end
 	endgenerate
 	

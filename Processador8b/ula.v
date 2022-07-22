@@ -13,16 +13,11 @@ module ula
 	input [7:0] inA,
 	input [7:0] inB,
 	input [2:0] ctrl_ula,
-	output reg zero,
+	output zero,
 	output reg [7:0] out
 );
 
-	always @(out) begin
-		if(out == 8'h00)
-			zero = 1'b1;
-		else
-			zero = 1'b0;
-	end
+	assign zero = out == 8'h00;
 
 	always @ (*) begin
 		case(ctrl_ula)
