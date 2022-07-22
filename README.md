@@ -1,5 +1,5 @@
 # Processador-8-bits
-Projeto em Verilog HDL de um processador de 8 bits uniciclo, baseado na arquitetura do MIPS.
+Projeto e descrição em Verilog HDL de um processador de 8 bits uniciclo, baseado na arquitetura do MIPS.
 
 Caminho de dados:
 ![datapath](https://user-images.githubusercontent.com/86082269/179384002-75c84c3a-e07d-49e4-b274-bfb55c29b0cd.png)
@@ -18,7 +18,7 @@ O processador foi capaz de executar com sucesso, na simulação RTL, um algoritm
 
 O código em código de máquina para o programa do BubbleSort pode ser encontrado no arquivo "m_inst_bubblesort.txt" e o código de máquina para o programa de encontrar o maior elemento de um vetor pode ser encontrado no arquivo "m_inst_maior.txt". Para carregar esses programas na memória de instruções, é necessário alterar o arquivo "memoria_instrucao.v", colocando o PATH completo na função $readmemb.
 
-Para cada programa foram criados dois casos de teste, que podem ser encontrados nos arquivos "m_dado_teste_bs_10pos.txt", "m_dado_teste_bs_20pos.txt", "m_dado_teste_maior_10pos.txt", "m_dado_teste_maior_10pos.txt".Para carregar esses valores na memória de dados, é necessário alterar o arquivo "memoria_dados.txt", colocando o PATH completo na função $readmemb.
+Para cada programa foram criados dois casos de teste, que podem ser encontrados nos arquivos "m_dado_teste_bs_10pos.txt", "m_dado_teste_bs_20pos.txt", "m_dado_teste_maior_10pos.txt", "m_dado_teste_maior_20pos.txt".Para carregar esses valores na memória de dados, é necessário alterar o arquivo "memoria_dados.txt", colocando o PATH completo na função $readmemb.
 
 Ao se trocar o programa a ser executado, o arquivo "simulacao_processador.v" tambem deve ser alterado, trocando os comentários no bloco initial e no fim do bloco always, para escrever no console corretamente para cada programa executado.
 
