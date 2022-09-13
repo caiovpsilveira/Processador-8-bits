@@ -4,8 +4,10 @@ Projeto e descrição em Verilog HDL de um processador de 8 bits uniciclo, basea
 Caminho de dados:
 ![datapath](https://user-images.githubusercontent.com/86082269/179384002-75c84c3a-e07d-49e4-b274-bfb55c29b0cd.png)
 
-As etapas de IF - ID - EXE - MEM(R) acontecem durante o semiciclo positivo do clock.
-As etapas de MEM(W) e REG WB ocorrem na borda de descida do clock.
+O PC e a memoria de dados são sincronos na borda de subida do clock.
+O registrador rJump, o banco de registradores e a memória de instruções são síncronos na borda de descida do clock.
+
+A primeira borda do clock deve ser uma borda de descida, para a memoria de instruções ler o conteudo de [0].
 
 Conjunto de instruções, tabela de controle e programas testados:
 https://docs.google.com/spreadsheets/d/1jTgcv_d65m7bKRawLwDhGFnjqreM5VpYS6qBkbGyiEc/edit#gid=1924621090
